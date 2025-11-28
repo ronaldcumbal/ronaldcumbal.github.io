@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Video Player</title>
+    <style>
+      html,body{height:100%;margin:0;background:#000}
+      .video-wrap{position:absolute;left:0;top:0;right:0;bottom:0;display:flex;align-items:center;justify-content:center}
+      video{max-width:100%;max-height:100%;height:auto;width:auto;display:block}
+    </style>
+  </head>
+  <body>
+    <div class="video-wrap">
+      <video controls preload="metadata" poster="../images/thumbs/alignment.png">
+        <source src="alignment.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </body>
+</html>
